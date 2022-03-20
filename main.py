@@ -16,7 +16,6 @@ class InternetSpeedTwitterBot():
 
 
     def __init__(self, driver_path):
-        self.counter = 0
         self.service = Service(driver_path)
         self.driver = webdriver.Chrome(service=self.service)
         self.down = 0
